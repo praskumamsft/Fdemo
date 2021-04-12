@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "examplfg-resourcesp"
+  name     = "pkkexamplfg-resourcesp"
   location = "West Europe"
 }
 
