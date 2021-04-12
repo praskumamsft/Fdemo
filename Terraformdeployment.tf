@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "examplfghfe-resourcesp"
+  name     = "examplfg-resourcesp"
   location = "West Europe"
 }
 
@@ -34,7 +34,7 @@ resource "azurerm_network_interface" "example" {
 }
 
 resource "azurerm_linux_virtual_machine" "example" {
-  name                = "example-machine"
+  name                = "examhple-machine"
   resource_group_name = azurerm_resource_group.example.name
   location            = azurerm_resource_group.example.location
   size                = "Standard_F2"
